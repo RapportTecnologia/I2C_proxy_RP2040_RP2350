@@ -95,6 +95,9 @@ $(document).ready(function(){initNavTree('I2C_8h.html',''); initResizable(); });
   <div class="headertitle"><div class="title">Referência ao ficheiro I2C.h</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Interface C++ simples para o periférico <a class="el" href="classI2C.html" title="Wrapper minimalista para operações I2C (begin, write/read, etc.).">I2C</a> do RP2040/RP2350.  
+<a href="#details">Mais...</a></p>
 <div class="textblock"><code>#include &quot;pico/stdlib.h&quot;</code><br />
 <code>#include &quot;hardware/i2c.h&quot;</code><br />
 <code>#include &lt;cstddef&gt;</code><br />
@@ -115,9 +118,13 @@ Este grafo mostra quais são os ficheiros que incluem directamente ou indirectam
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Componentes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classI2C.html">I2C</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrapper minimalista para operações <a class="el" href="classI2C.html" title="Wrapper minimalista para operações I2C (begin, write/read, etc.).">I2C</a> (begin, write/read, etc.).  <a href="classI2C.html#details">Mais...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-</div><!-- contents -->
+<a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
+<div class="textblock"><p>Interface C++ simples para o periférico <a class="el" href="classI2C.html" title="Wrapper minimalista para operações I2C (begin, write/read, etc.).">I2C</a> do RP2040/RP2350. </p>
+<p>Esta classe funciona como um pequeno wrapper ao redor das funções do SDK do Pico, oferecendo uma API semelhante ao Wire/Arduino para facilitar exemplos e drivers de sensores. </p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
