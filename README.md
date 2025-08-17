@@ -18,3 +18,38 @@ git submodule update --remote --merge --recursive
 ```
 
 Caso use este repositório isoladamente, ajuste manualmente referências relativas usadas por projetos que esperam `../I2C` a partir do diretório do módulo consumidor.
+
+## Visão Geral
+
+Biblioteca/proxy de I2C com API simples (estilo `Wire`) para facilitar portabilidade entre HALs. Fornece `begin()`, `setClock()`, `beginTransmission()`, `write()`, `requestFrom()`, `read()`, etc.
+
+## Estrutura do projeto
+
+```
+I2C-proxy-RP2040-RP2350/
+├─ I2C.h
+├─ I2C.cpp
+├─ CMakeLists.txt
+└─ Doxyfile (quando aplicável)
+```
+
+## Pré-requisitos
+
+- Pico SDK configurado (para projetos que o utilizem)
+- CMake 3.13+ (para build com CMake)
+
+## Documentação
+
+Para gerar documentação local com Doxygen (se configurado):
+
+```bash
+doxygen Doxyfile
+```
+
+## Licença
+
+Consulte o arquivo `LICENSE` deste repositório ou o arquivo `LICENSE` na raiz do workspace principal para os termos.
+
+## Autores e Colaboradores
+
+- Carlos Delfino — consultoria@carlosdelfino.eti.br — GitHub: [@carlosdelfino](https://github.com/carlosdelfino)
