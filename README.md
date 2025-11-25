@@ -1,4 +1,15 @@
 # I2C_proxy_RP2040_RP2350
+
+
+![Visitantes do Projeto](https://visitor-badge.laobi.icu/badge?page_id=rapporttecnologia.i2c_proxy_rp2040_2350)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
+![C++](https://img.shields.io/badge/C%2B%2B-17-blue)
+![Pico SDK](https://img.shields.io/badge/Raspberry%20Pi-Pico%20SDK-brightgreen)
+![CMake](https://img.shields.io/badge/CMake-%3E%3D3.16-informational)
+[![Docs](https://img.shields.io/badge/docs-Doxygen-blueviolet)](docs/index.html)
+[![Latest Release](https://img.shields.io/github/v/release/rapporttecnologia/i2c_proxy_rp2040_2350?label=version)](https://rapporttecnologia/i2c_proxy_rp2040_2350/releases/latest)
+
+
 Um proxy para o I2C do RP2040 e RP2350, ele pode ser ajustado facilmente para outros microcontroladores abstraindo assim o acesso HAL sem muito overhead.
 
 ## Como obter este módulo (via workspace principal)
